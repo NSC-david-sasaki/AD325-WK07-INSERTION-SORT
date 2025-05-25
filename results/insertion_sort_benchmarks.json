@@ -1,0 +1,52 @@
+{
+    "machine_info": {
+        "algorithm": "insertion_sort",
+        "python_version": "3.13.3"
+    },
+    "benchmarks": [
+        {
+            "name": "test_small_array_sort",
+            "stats": {
+                "min": 2.708497049752623e-07,
+                "max": 2.349999704165384e-06,
+                "mean": 3.098708584383453e-07,
+                "stddev": 3.315219182547031e-08,
+                "rounds": 149993,
+                "unit": "ns"
+            }
+        },
+        {
+            "name": "test_large_array_sort",
+            "stats": {
+                "min": 0.0005279169999994338,
+                "max": 0.0005511250055860728,
+                "mean": 0.0005360002018278464,
+                "stddev": 9.071807726732025e-06,
+                "rounds": 5,
+                "unit": "ns"
+            }
+        },
+        {
+            "name": "test_nearly_sorted_array_sort",
+            "stats": {
+                "min": 4.312500823289156e-05,
+                "max": 0.00013254099758341908,
+                "mean": 4.930725716719328e-05,
+                "stddev": 2.658345765888921e-06,
+                "rounds": 21410,
+                "unit": "ns"
+            }
+        },
+        {
+            "name": "test_reversed_array_sort",
+            "stats": {
+                "min": 4.4832995627075434e-05,
+                "max": 5.60000044060871e-05,
+                "mean": 4.719435242737678e-05,
+                "stddev": 2.751197588658363e-06,
+                "rounds": 54,
+                "unit": "ns"
+            }
+        }
+    ]
+}
